@@ -7,7 +7,7 @@
  import net.minecraft.block.material.MapColor;
  import net.minecraft.block.material.Material;
  import net.minecraft.block.properties.IProperty;
-@@ -17,6 +18,10 @@
+@@ -15,6 +16,10 @@
  import net.minecraft.world.IBlockAccess;
  import net.minecraft.world.World;
  
@@ -18,7 +18,7 @@
  public class BlockCarpet extends Block
  {
      public static final PropertyEnum<EnumDyeColor> field_176330_a = PropertyEnum.<EnumDyeColor>func_177709_a("color", EnumDyeColor.class);
-@@ -57,6 +62,7 @@
+@@ -55,6 +60,7 @@
  
      public void func_189540_a(IBlockState p_189540_1_, World p_189540_2_, BlockPos p_189540_3_, Block p_189540_4_, BlockPos p_189540_5_)
      {
@@ -26,7 +26,7 @@
          this.func_176328_e(p_189540_2_, p_189540_3_, p_189540_1_);
      }
  
-@@ -111,4 +117,13 @@
+@@ -101,4 +107,13 @@
      {
          return p_193383_4_ == EnumFacing.DOWN ? BlockFaceShape.SOLID : BlockFaceShape.UNDEFINED;
      }

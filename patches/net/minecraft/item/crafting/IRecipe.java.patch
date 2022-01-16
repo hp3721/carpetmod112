@@ -1,0 +1,14 @@
+--- ../src-base/minecraft/net/minecraft/item/crafting/IRecipe.java
++++ ../src-work/minecraft/net/minecraft/item/crafting/IRecipe.java
+@@ -15,6 +15,11 @@
+ 
+     NonNullList<ItemStack> func_179532_b(InventoryCrafting p_179532_1_);
+ 
++default NonNullList<Ingredient> func_192400_c()
++    {
++        return NonNullList.<Ingredient>func_191196_a();
++    }
++
+ default boolean func_192399_d()
+     {
+         return false;

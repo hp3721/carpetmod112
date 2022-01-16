@@ -1,6 +1,6 @@
 --- ../src-base/minecraft/net/minecraft/inventory/InventoryCrafting.java
 +++ ../src-work/minecraft/net/minecraft/inventory/InventoryCrafting.java
-@@ -10,10 +10,10 @@
+@@ -9,10 +9,10 @@
  
  public class InventoryCrafting implements IInventory
  {

@@ -45,8 +45,8 @@ public class CarpetSettings
 
     // TODO: replace these constants at build time
     public static final String carpetVersion = "v21_11_10";
-    public static final String minecraftVersion = "1.12.2";
-    public static final String mcpMappings = "39-1.12";
+    public static final String minecraftVersion = "1.12";
+    public static final String mcpMappings = "20180814-1.12";
 
     public static final Logger LOG = LogManager.getLogger();
 

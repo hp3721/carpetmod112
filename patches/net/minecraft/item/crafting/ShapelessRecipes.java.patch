@@ -1,0 +1,14 @@
+--- ../src-base/minecraft/net/minecraft/item/crafting/ShapelessRecipes.java
++++ ../src-work/minecraft/net/minecraft/item/crafting/ShapelessRecipes.java
+@@ -46,6 +46,11 @@
+         return nonnulllist;
+     }
+ 
++    public NonNullList<Ingredient> func_192400_c()
++    {
++        return this.field_77579_b;
++    }
++
+     public boolean func_77569_a(InventoryCrafting p_77569_1_, World p_77569_2_)
+     {
+         List<Ingredient> list = Lists.newArrayList(this.field_77579_b);
